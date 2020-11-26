@@ -1,6 +1,6 @@
 {% set name = "pyserial" %}
-{% set version = "3.4" %}
-{% set sha256 = "6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627" %}
+{% set version = "3.5" %}
+{% set sha256 = "3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb" %}
 
 package:
   name: {{ name|lower }}

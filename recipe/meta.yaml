@@ -19,12 +19,18 @@ requirements:
   host:
     - python
     - setuptools
+    - pip
+    - wheel
   run:
     - python
 
 test:
   imports:
     - serial
+  requires:
+    - pip
+  commands:
+    - wheel
 
 about:
   home: https://github.com/pyserial/pyserial

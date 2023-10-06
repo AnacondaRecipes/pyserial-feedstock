@@ -35,6 +35,7 @@ test:
 about:
   home: https://github.com/pyserial/pyserial
   license: BSD-3-Clause
+  license_family: BSD
   license_file: LICENSE.txt
   summary: Python serial port access library
   description: |
